@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #f1f8e9, #dcedc8);
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #33691e;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #558b2f;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 2px solid #c5e1a5;
+  border-radius: 8px;
+  background: #fdf5e6;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor: crosshair;
+}

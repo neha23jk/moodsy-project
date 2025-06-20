@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background: linear-gradient(to top, #ffe6e6, #ffcccc);
+  text-align: center;
+  overflow: hidden;
+}
+
+#game-area {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 20px;
+  border-top: 2px dashed #888;
+  border-bottom: 2px dashed #888;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.dot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+  animation: popIn 0.2s ease;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

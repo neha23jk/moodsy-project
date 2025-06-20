@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to top, #e8f5e9, #c8e6c9);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #2e7d32;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #388e3c;
+  margin-bottom: 20px;
+}
+
+.plant-area {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#pot {
+  font-size: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#plant {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  transition: all 0.3s ease;
+}
+
+#waterBtn {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #81c784;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#waterBtn:hover {
+  background-color: #66bb6a;
+}

@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to bottom, #e1f5fe, #b3e5fc);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #0288d1;
+  margin-bottom: 10px;
+}
+
+#game {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border: 2px solid #81d4fa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#ball {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #4fc3f7;
+  border-radius: 50%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#paddle {
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  background-color: #0288d1;
+  bottom: 10px;
+  left: 150px;
+  border-radius: 10px;
+}
+
+#message {
+  font-size: 1.2rem;
+  color: #006064;
+  margin-top: 15px;
+}

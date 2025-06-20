@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background: radial-gradient(circle, #fdfbfb, #ebedee);
+  text-align: center;
+  overflow: hidden;
+}
+
+#game-area {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 20px;
+  border: 2px dashed #bbb;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.fruit {
+  position: absolute;
+  font-size: 2rem;
+  cursor: crosshair;
+  animation: flyUp 3s linear;
+  user-select: none;
+}
+
+@keyframes flyUp {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+
+@keyframes slicePop {
+  0% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.fruit.sliced {
+  animation: slicePop 0.4s ease-out forwards;
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#maze {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border: 3px solid #4dd0e1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.wall {
+  position: absolute;
+  background-color: #b2dfdb;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+#player {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #00796b;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#goal {
+  position: absolute;
+  font-size: 1.4rem;
+  z-index: 2;
+}

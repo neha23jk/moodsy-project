@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background: linear-gradient(to top, #ffeef8, #fff0f5);
+  text-align: center;
+}
+
+#game-area {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 20px;
+  border-top: 2px dashed #ccc;
+  border-bottom: 2px dashed #ccc;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.word {
+  position: absolute;
+  font-weight: bold;
+  font-size: 18px;
+  animation: fall 4s linear;
+  color: #333;
+}
+
+@keyframes fall {
+  from { top: -20px; }
+  to { top: 100vh; }
+}
+
+#basket {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  font-size: 32px;
+  transition: left 0.1s;
+}

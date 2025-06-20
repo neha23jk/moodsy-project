@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: radial-gradient(circle, #fff3f3, #ffd6d6);
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#game-area {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 2px dashed #dd4b39;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #e74c3c;
+  border: 3px solid #b0392f;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: scaleIn 0.2s ease;
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moodsy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+     <div class="logo">🌈 Moodsy</div>
+     <div class="nav-icons">
+       <a href="journal/index.html" title="Journal"><span>📓</span></a>
+       <a href="moodchart/index.html" title="Weekly Mood Chart"><span>📊</span></a>
+       <a href="#" title="Account (Coming soon)"><span>👤</span></a>
+     </div>
+  </nav>
+
+
+  <header>
+    <p>How are you feeling today?</p>
+  </header>
+
+  <main>
+    <div class="mood-container">
+      <button onclick="selectMood('happy')">😊</button>
+      <button onclick="selectMood('sad')">😢</button>
+      <button onclick="selectMood('angry')">😠</button>
+      <button onclick="selectMood('anxious')">😨</button>
+      <button onclick="selectMood('calm')">😌</button>
+    </div>
+
+    <div id="mood-output"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
