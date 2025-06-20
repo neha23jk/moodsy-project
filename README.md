@@ -16,7 +16,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript, React.js, Tailwind CSS
+- **Frontend**: HTML, CSS, JavaScript
 - **State & Storage**: LocalStorage (for now)
 - **Charts**: Chart.js
 - **Planned Backend**: Node.js, MongoDB
