@@ -46,4 +46,4 @@
 
 ## 🧑‍💻 Author
 
-Made with care by **Neha Chaudhary** – a student passionate about mental health, emotional intelligence, and creative web development.
+Made with care by **Neha Chaudhary** – ECE student at IIIT KOTA working on Web Development and DSA.
