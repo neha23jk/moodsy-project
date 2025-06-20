@@ -4,6 +4,21 @@
 
 ---
 
+## 🧠 How Moodsy Responds to Emotions
+
+Moodsy adapts its entire environment based on the user's selected emotion — including:
+
+- 🎨 **Theme & Layout:**  
+  The background colors, text, and overall mood of the UI change depending on how the user feels (e.g., happy, sad, anxious, calm).
+
+- 🕹️ **Smart Game Selection:**  
+  Each emotion has a pool of 3 handpicked mini-games tailored to that mood.  
+  Every time the user selects a mood, **one game is randomly chosen and displayed**, creating a fresh and fun experience each time.
+
+This dynamic adaptation helps users feel seen, understood, and supported in real-time.
+
+---
+
 ## 🎯 Features
 
 - 🎮 **Mini Games** – Play quick and calming games designed to boost your mood.
