@@ -47,3 +47,14 @@
 ## 🧑‍💻 Author
 
 Made with care by **Neha Chaudhary** – ECE student at IIIT KOTA working on Web Development and DSA.
+
+---
+
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**.  
+You are free to use, modify, and distribute this code with proper attribution.  
+See the full license details in the [LICENSE](LICENSE) file.
+
+---
+
