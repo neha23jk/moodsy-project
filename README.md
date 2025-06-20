@@ -63,14 +63,14 @@ See the full license details in the [LICENSE](LICENSE) file.
 ### 🏠 Homepage (Mood Selector)
 ![Homepage](./screenshots/home-page.png)
 
-### 📔 Journal Section
-![Journal](./screenshots/journal.png)
+### 🎨 Mood Selector
+![Mood Selector](./screenshots/mood-selector.png)
 
 ### 🎮 Mini Game
 ![Mini Game](./screenshots/mini-game.png)
 
-### 🎨 Mood Selector
-![Mood Selector](./screenshots/mood-selector.png)
+### 📔 Journal Section
+![Journal](./screenshots/journal.png)
 
 ### 📊 Mood Tracker
 ![Mood Tracker](./screenshots/mood-tracker.png)
