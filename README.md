@@ -58,3 +58,20 @@ See the full license details in the [LICENSE](LICENSE) file.
 
 ---
 
+## 🖼️ Screenshots
+
+### 🏠 Homepage (Mood Selector)
+![Homepage](./screenshots/home-page.png)
+
+### 📔 Journal Section
+![Journal](./screenshots/journal.png)
+
+### 🎮 Mini Game
+![Mini Game](./screenshots/mini-game.png)
+
+### 🎨 Mood Selector
+![Mood Selector](./screenshots/mood-selector.png)
+
+### 📊 Mood Tracker
+![Mood Tracker](./screenshots/mood-tracker.png)
+
